@@ -17,10 +17,10 @@ class Pet {
 const pets = [];
 
 window.onload = () => {
-  const submitButton = document.getElementsByTagName("button")[0];
+  const form = document.getElementsByTagName("form")[0];
   const h1 = document.getElementsByTagName("h1")[0];
 
-  submitButton.onclick = (e) => {
+  form.onsubmit = (e) => {
     h1.style.display = "none";
 
     const petNameField = document.getElementById("name-of-pet-input");
