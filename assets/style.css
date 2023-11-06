@@ -1,0 +1,19 @@
+label,
+input {
+  display: block;
+  margin-inline: auto;
+}
+input {
+  margin-top: 0.5rem;
+}
+label {
+  margin-top: 2rem;
+}
+div {
+  width: 55%;
+  margin-inline: auto;
+  text-align: center;
+}
+button {
+  margin-top: 2rem;
+}
